@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+    <h1 id = "title">Hello, DOM!</h1>
+    <ul>
+        <li>Dom methods example</li>
+        <li>Dom Properties example</li>
+        <button onclick = "alert('message')">Click me</button>
+        <button class="ClickHere">Click here</button>
+        <input id="username-input" name="username" type = "text">
+    </ul>
+    <script>
+        function getUserName() {
+            const userNameId = document.getElementById('username-input');
+            console.log(userNameId.value);
+        }
+
+        function getTags() {
+            const liElements = document.getElementsByTagName('li');
+            return liElements;
+
+        }
+
+        function getClass(){
+            const element = document.getElementsByClassName('ClickHere');
+            return element;
+        }
+    </script>
+    
+</body>
+</html>
