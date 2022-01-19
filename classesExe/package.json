@@ -1,0 +1,15 @@
+{
+  "name": "advancedclassesexe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "autoEngineeringCompany.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "TP",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.2.1"
+  }
+}
